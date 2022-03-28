@@ -23,7 +23,7 @@ def is_even_number(number):
         return False
 
 def main ():
-    my_numbers = [7, -4, 3.5, 8, 0, 9]
+    my_numbers = [7, -4, 3.5, 8, 0, 10]
     for number in my_numbers:
         print(f"{number} je prirozene: {is_natural_number(number)}")
         print (f"{number} je sude {is_even_number(number)}")
