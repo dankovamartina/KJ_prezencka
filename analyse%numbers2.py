@@ -26,6 +26,7 @@ def main ():
     my_numbers = [7, -5, 0.3]
     for number in my_numbers:
         print(f"{number} je sude {is_even_number(number)}")
+        print(f"{number} je prirozene: {is_natural_number(number)}")
 
 
 if __name__ == "__main__":
